@@ -3,7 +3,6 @@
 <p align="center">
 Projeto desenvolvido por Grégory Fortunato através do curso promovido pela plataforma Rockeaset <br/>
 
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -18,7 +17,7 @@ Projeto desenvolvido por Grégory Fortunato através do curso promovido pela pla
 <br>
 
 <p align="center">
-  <img alt="Projeto AllMyLinks" src=".github/Agregador de Links (1).jpg" width="100%">
+  <img alt="Projeto AllMyLinks" src=".github/allmylinks-preview.jpg" width="100%">
 </p>
 
 <br>
@@ -51,6 +50,3 @@ Este projeto foi criado para profissionais, freelancers, criadores de conteúdo 
 - JavaScript
 
 <br>
-
-
-
