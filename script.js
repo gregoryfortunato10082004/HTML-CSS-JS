@@ -2,16 +2,16 @@ function toggleMode() {
   const html = document.documentElement
   html.classList.toggle("light")
 
-  //pegar a tag img
+  // Pegar a tag img do perfil
   const img = document.querySelector("#profile img")
 
-  //substituir a imagem
   if (html.classList.contains("light")) {
-    //se tiver light mode adicionar a img light
-    img.setAttribute("src", "./assets/avatar-light.png") //ajustar/modificar o atributo
+    // Modo claro ativo: trocar imagem e alt
+    img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute("alt", "Foto 3x4 Gregory Fortunato com fundo verde")
   } else {
-    //se tiver sem light mode, manter a imagem normal
+    // Modo escuro ativo: imagem padrão e alt original
     img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("alt", "Foto 3x4 Gregory Fortunato com fundo preto")
   }
 }

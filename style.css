@@ -5,7 +5,7 @@
 
 html {
   --text-color: white;
-  --bg-url: url(./assets/bg.jfif);
+  --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.25);
@@ -15,7 +15,7 @@ html {
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-light.png);
+  --bg-url: url(./assets/bg-mobile-light.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -85,7 +85,7 @@ body * {
   height: 24px;
   background: var(--surface-color);
   border: var(--stroke-color);
-  --webkit-backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
 
@@ -153,4 +153,14 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 16px;
+}
+
+@media (min-widht: 700px) {
+  html {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
