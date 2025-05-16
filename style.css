@@ -11,6 +11,7 @@ html {
   --surface-color-hover: rgba(255, 255, 255, 0.25);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(assets/moon-stars.svg);
+  overflow-x: hidden;
 }
 
 .light {
@@ -27,6 +28,7 @@ body {
   /* Define um fundo de tela com imagem que cobre tudo */
   height: 100vh;
   background: var(--bg-url) no-repeat top center/cover;
+  overflow-x: hidden;
 }
 
 body * {
@@ -95,7 +97,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 24px 0px;
+  padding: 24px 16px; /* aqui entra o padding lateral */
 }
 
 ul li a {
