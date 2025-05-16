@@ -1,7 +1,7 @@
 <h1 align="center"> AllMyLinks</h1>
 
 <p align="center">
-Projeto desenvolvido por Grégory Fortunato através do curso promovido pela plataforma Rockeaset <br/>
+Projeto desenvolvido por Grégory Fortunato através do curso promovido pela plataforma Rocketseat <br/>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
