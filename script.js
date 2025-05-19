@@ -11,7 +11,7 @@ function toggleMode() {
     img.setAttribute("alt", "Foto 3x4 Gregory Fortunato com fundo verde")
   } else {
     // Modo escuro ativo: imagem padrão e alt original
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/Avatar.png")
     img.setAttribute("alt", "Foto 3x4 Gregory Fortunato com fundo preto")
   }
 }
